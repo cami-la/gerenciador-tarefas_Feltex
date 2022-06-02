@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  gerenciador-tarefas:
+    image: camila94/gerenciador-tarefas:v2
+    container_name: gerenciador-tarefas
+    ports:
+      - "8099:80"
